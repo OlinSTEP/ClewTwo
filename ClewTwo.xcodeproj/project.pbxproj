@@ -15,6 +15,7 @@
 		A88D082A29C7DF7B006CBEF0 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D082929C7DF7B006CBEF0 /* RecordView.swift */; };
 		A88D083029C7DFE8006CBEF0 /* MyRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D082F29C7DFE8006CBEF0 /* MyRoutes.swift */; };
 		A88D083229C7E25D006CBEF0 /* MyRoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D083129C7E25D006CBEF0 /* MyRoutesView.swift */; };
+		A88D083429C9F8FB006CBEF0 /* MyRoutesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D083329C9F8FB006CBEF0 /* MyRoutesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A88D082929C7DF7B006CBEF0 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		A88D082F29C7DFE8006CBEF0 /* MyRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRoutes.swift; sourceTree = "<group>"; };
 		A88D083129C7E25D006CBEF0 /* MyRoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRoutesView.swift; sourceTree = "<group>"; };
+		A88D083329C9F8FB006CBEF0 /* MyRoutesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRoutesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		A88D082D29C7DFC3006CBEF0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				A88D083329C9F8FB006CBEF0 /* MyRoutesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				A88D081C29C7DEED006CBEF0 /* ContentView.swift in Sources */,
 				A88D082A29C7DF7B006CBEF0 /* RecordView.swift in Sources */,
+				A88D083429C9F8FB006CBEF0 /* MyRoutesViewModel.swift in Sources */,
 				A88D083229C7E25D006CBEF0 /* MyRoutesView.swift in Sources */,
 				A88D081A29C7DEED006CBEF0 /* ClewTwoApp.swift in Sources */,
 				A88D082829C7DF6C006CBEF0 /* NavigateView.swift in Sources */,
