@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		A88D081A29C7DEED006CBEF0 /* ClewTwoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D081929C7DEED006CBEF0 /* ClewTwoApp.swift */; };
-		A88D081C29C7DEED006CBEF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D081B29C7DEED006CBEF0 /* ContentView.swift */; };
 		A88D081E29C7DEEE006CBEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88D081D29C7DEEE006CBEF0 /* Assets.xcassets */; };
 		A88D082129C7DEEE006CBEF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88D082029C7DEEE006CBEF0 /* Preview Assets.xcassets */; };
-		A88D082829C7DF6C006CBEF0 /* NavigateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D082729C7DF6C006CBEF0 /* NavigateView.swift */; };
-		A88D082A29C7DF7B006CBEF0 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D082929C7DF7B006CBEF0 /* RecordView.swift */; };
 		A88D083029C7DFE8006CBEF0 /* MyRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D082F29C7DFE8006CBEF0 /* MyRoutes.swift */; };
 		A88D083229C7E25D006CBEF0 /* MyRoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D083129C7E25D006CBEF0 /* MyRoutesView.swift */; };
 		A88D083429C9F8FB006CBEF0 /* MyRoutesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D083329C9F8FB006CBEF0 /* MyRoutesViewModel.swift */; };
+		A88D083A29CA427D006CBEF0 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D083929CA427D006CBEF0 /* AudioPlayer.swift */; };
+		A88D083D29CA4380006CBEF0 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = A88D083C29CA4380006CBEF0 /* beep.wav */; };
+		A88D083F29CA456A006CBEF0 /* AudioPlayerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D083E29CA456A006CBEF0 /* AudioPlayerTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A88D081629C7DEED006CBEF0 /* ClewTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClewTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88D081929C7DEED006CBEF0 /* ClewTwoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClewTwoApp.swift; sourceTree = "<group>"; };
-		A88D081B29C7DEED006CBEF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A88D081D29C7DEEE006CBEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A88D082029C7DEEE006CBEF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A88D082729C7DF6C006CBEF0 /* NavigateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateView.swift; sourceTree = "<group>"; };
-		A88D082929C7DF7B006CBEF0 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		A88D082F29C7DFE8006CBEF0 /* MyRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRoutes.swift; sourceTree = "<group>"; };
 		A88D083129C7E25D006CBEF0 /* MyRoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRoutesView.swift; sourceTree = "<group>"; };
 		A88D083329C9F8FB006CBEF0 /* MyRoutesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRoutesViewModel.swift; sourceTree = "<group>"; };
+		A88D083929CA427D006CBEF0 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		A88D083C29CA4380006CBEF0 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep.wav; path = ../../../../Downloads/beep.wav; sourceTree = "<group>"; };
+		A88D083E29CA456A006CBEF0 /* AudioPlayerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,8 @@
 				A88D082C29C7DFB5006CBEF0 /* Views */,
 				A88D082B29C7DFA9006CBEF0 /* Models */,
 				A88D081929C7DEED006CBEF0 /* ClewTwoApp.swift */,
+				A88D083929CA427D006CBEF0 /* AudioPlayer.swift */,
+				A88D083B29CA436A006CBEF0 /* Assets */,
 				A88D081D29C7DEEE006CBEF0 /* Assets.xcassets */,
 				A88D081F29C7DEEE006CBEF0 /* Preview Content */,
 			);
@@ -90,10 +92,8 @@
 		A88D082C29C7DFB5006CBEF0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A88D081B29C7DEED006CBEF0 /* ContentView.swift */,
 				A88D083129C7E25D006CBEF0 /* MyRoutesView.swift */,
-				A88D082729C7DF6C006CBEF0 /* NavigateView.swift */,
-				A88D082929C7DF7B006CBEF0 /* RecordView.swift */,
+				A88D083E29CA456A006CBEF0 /* AudioPlayerTestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,6 +104,14 @@
 				A88D083329C9F8FB006CBEF0 /* MyRoutesViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A88D083B29CA436A006CBEF0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A88D083C29CA4380006CBEF0 /* beep.wav */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +174,7 @@
 			files = (
 				A88D082129C7DEEE006CBEF0 /* Preview Assets.xcassets in Resources */,
 				A88D081E29C7DEEE006CBEF0 /* Assets.xcassets in Resources */,
+				A88D083D29CA4380006CBEF0 /* beep.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,12 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A88D081C29C7DEED006CBEF0 /* ContentView.swift in Sources */,
-				A88D082A29C7DF7B006CBEF0 /* RecordView.swift in Sources */,
 				A88D083429C9F8FB006CBEF0 /* MyRoutesViewModel.swift in Sources */,
 				A88D083229C7E25D006CBEF0 /* MyRoutesView.swift in Sources */,
+				A88D083F29CA456A006CBEF0 /* AudioPlayerTestView.swift in Sources */,
+				A88D083A29CA427D006CBEF0 /* AudioPlayer.swift in Sources */,
 				A88D081A29C7DEED006CBEF0 /* ClewTwoApp.swift in Sources */,
-				A88D082829C7DF6C006CBEF0 /* NavigateView.swift in Sources */,
 				A88D083029C7DFE8006CBEF0 /* MyRoutes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
