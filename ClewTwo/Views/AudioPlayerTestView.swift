@@ -14,7 +14,17 @@ struct AudioPlayerTestView: View {
         Button(action: {
             self.player.gettingCloser()
         }) {
+            Text("Getting Closer")
+        }
+        Button(action: {
+            self.player.goLeft()
+        }) {
             Text("Go Left")
+        }
+        Button(action: {
+            self.player.goRight()
+        }) {
+            Text("Go Right")
         }
     }
 }

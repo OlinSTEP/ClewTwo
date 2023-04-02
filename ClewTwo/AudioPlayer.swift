@@ -36,7 +36,7 @@ class AudioPlayer: ObservableObject {
     }
     
     func gettingCloser() {
-        player.numberOfLoops = 10000
+        player.numberOfLoops = 100
         player.volume = 1.0
         player.play()
         let startTime = Date()

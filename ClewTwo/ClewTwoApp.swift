@@ -11,7 +11,7 @@ import SwiftUI
 struct ClewTwoApp: App {
     var body: some Scene {
         WindowGroup {
-            AudioPlayerTestView()
+            HomeView()
         }
     }
 }

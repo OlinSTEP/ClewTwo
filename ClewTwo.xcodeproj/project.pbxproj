@@ -16,6 +16,7 @@
 		A88D083A29CA427D006CBEF0 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D083929CA427D006CBEF0 /* AudioPlayer.swift */; };
 		A88D083D29CA4380006CBEF0 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = A88D083C29CA4380006CBEF0 /* beep.wav */; };
 		A88D083F29CA456A006CBEF0 /* AudioPlayerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D083E29CA456A006CBEF0 /* AudioPlayerTestView.swift */; };
+		A8DAF86B29D9020A00A0DF10 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DAF86A29D9020A00A0DF10 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A88D083929CA427D006CBEF0 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		A88D083C29CA4380006CBEF0 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep.wav; path = ../../../../Downloads/beep.wav; sourceTree = "<group>"; };
 		A88D083E29CA456A006CBEF0 /* AudioPlayerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerTestView.swift; sourceTree = "<group>"; };
+		A8DAF86A29D9020A00A0DF10 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				A88D083129C7E25D006CBEF0 /* MyRoutesView.swift */,
+				A8DAF86A29D9020A00A0DF10 /* HomeView.swift */,
 				A88D083E29CA456A006CBEF0 /* AudioPlayerTestView.swift */,
 			);
 			path = Views;
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A88D083429C9F8FB006CBEF0 /* MyRoutesViewModel.swift in Sources */,
+				A8DAF86B29D9020A00A0DF10 /* HomeView.swift in Sources */,
 				A88D083229C7E25D006CBEF0 /* MyRoutesView.swift in Sources */,
 				A88D083F29CA456A006CBEF0 /* AudioPlayerTestView.swift in Sources */,
 				A88D083A29CA427D006CBEF0 /* AudioPlayer.swift in Sources */,
